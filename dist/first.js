@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const modules_1 = require("./modules");
+console.log(modules_1.Message);
+let fno = 10;
+let sno = 20;
+//no="hello";
+let sum = fno + sno;
+console.log(`The sum of ${fno} and ${sno} is ${sum}`);
+console.log("auto transpilation");
